@@ -6,7 +6,7 @@ on:
 
 jobs:
   comment-with-action:
-     runs-on: ubunutu-latest
+     runs-on: windows  
      steps:
        - name: "dump github context"
          run: echo '${{ toJSON(github.event) }} | jq
